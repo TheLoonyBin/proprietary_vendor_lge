@@ -22,9 +22,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geefhd/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/lge/geefhd/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/lge/geefhd/proprietary/bin/efsks:system/bin/efsks \
+    vendor/lge/geefhd/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/geefhd/proprietary/bin/ks:system/bin/ks \
     vendor/lge/geefhd/proprietary/bin/mm-audio-send-cal:system/bin/mm-audio-send-cal \
-    vendor/lge/geefhd/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/lge/geefhd/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/geefhd/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/geefhd/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -61,9 +61,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geefhd/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
     vendor/lge/geefhd/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
     vendor/lge/geefhd/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
+    vendor/lge/geefhd/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
+    vendor/lge/geefhd/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
+    vendor/lge/geefhd/proprietary/etc/firmware/fw_bcmdhd_mfg.bin:system/etc/firmware/fw_bcmdhd_mfg.bin \
+    vendor/lge/geefhd/proprietary/etc/firmware/fw_bcmdhd_p2p.bin:system/etc/firmware/fw_bcmdhd_p2p.bin \
     vendor/lge/geefhd/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/lge/geefhd/proprietary/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
     vendor/lge/geefhd/proprietary/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
+    vendor/lge/geefhd/proprietary/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
     vendor/lge/geefhd/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/lge/geefhd/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/lge/geefhd/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
@@ -93,6 +98,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geefhd/proprietary/lib/libchromatix_imx111_zsl.so:system/lib/libchromatix_imx111_zsl.so \
     vendor/lge/geefhd/proprietary/lib/libchromatix_imx119_default_video.so:system/lib/libchromatix_imx119_default_video.so \
     vendor/lge/geefhd/proprietary/lib/libchromatix_imx119_preview.so:system/lib/libchromatix_imx119_preview.so \
+    vendor/lge/geefhd/proprietary/lib/libchromatix_imx119_vt.so:system/lib/libchromatix_imx119_vt.so \
     vendor/lge/geefhd/proprietary/lib/libchromatix_imx132_vt.so:system/lib/libchromatix_imx132_vt.so \
     vendor/lge/geefhd/proprietary/lib/libchromatix_imx132_default_video.so:system/lib/libchromatix_imx132_default_video.so \
     vendor/lge/geefhd/proprietary/lib/libchromatix_imx132_preview.so:system/lib/libchromatix_imx132_preview.so \
@@ -125,8 +131,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geefhd/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/lge/geefhd/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/lge/geefhd/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+    vendor/lge/geefhd/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
     vendor/lge/geefhd/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/lge/geefhd/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
+    vendor/lge/geefhd/proprietary/lib/libmmgesture_services.so:system/lib/libmmgesture_services.so \
+    vendor/lge/geefhd/proprietary/lib/libmmgestures-linux.so:system/lib/libmmgestures-linux.so \
     vendor/lge/geefhd/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/geefhd/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/geefhd/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
@@ -134,12 +143,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geefhd/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
     vendor/lge/geefhd/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/lge/geefhd/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
+    vendor/lge/geefhd/proprietary/lib/libmorpho_movie_stabilization.so:system/lib/libmorpho_movie_stabilization.so \
     vendor/lge/geefhd/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/lge/geefhd/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lge/geefhd/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/lge/geefhd/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/lge/geefhd/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
     vendor/lge/geefhd/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
+    vendor/lge/geefhd/proprietary/lib/libproxyhal.so:system/lib/libproxyhal.so \
     vendor/lge/geefhd/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/lge/geefhd/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/lge/geefhd/proprietary/lib/libqdp.so:system/lib/libqdp.so \
