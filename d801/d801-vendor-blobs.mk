@@ -260,6 +260,7 @@ PRODUCT_COPY_FILES += \
         vendor/lge/d801/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
         vendor/lge/d801/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
         vendor/lge/d801/proprietary/vendor/lib/pp_proc_plugin.so:system/vendor/lib/pp_proc_plugin.so \
+        vendor/lge/d801/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
         vendor/lge/d801/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
         vendor/lge/d801/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
         vendor/lge/d801/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
