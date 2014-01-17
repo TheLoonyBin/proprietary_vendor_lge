@@ -47,7 +47,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs980/proprietary/lib/libvss_ims_qcci.so:system/lib/libvss_ims_qcci.so \
     vendor/lge/vs980/proprietary/lib/libvss_common_core.so:system/lib/libvss_common_core.so \
     vendor/lge/vs980/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
+    vendor/lge/vs980/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/lge/vs980/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/lge/vs980/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/lge/vs980/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lge/vs980/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/lge/vs980/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/lge/vs980/proprietary/bin/rmt_storage:system/bin/rmt_storage \
@@ -67,6 +70,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs980/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/vs980/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/vs980/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
+    vendor/lge/vs980/proprietary/lib/hw/gps.msm8974.so:system/lib/hw/gps.msm8974.so \
     vendor/lge/vs980/proprietary/lib/libHDR.so:system/lib/libHDR.so \
     vendor/lge/vs980/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
     vendor/lge/vs980/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
