@@ -46,7 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/p700/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lge/p700/proprietary/lib/libchromatix_hi542_preview.so:system/lib/libchromatix_hi542_preview.so \
-    vendor/lge/p700/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/vendor-camera.msm7x27a.so \
+    vendor/lge/p700/proprietary/lib/hw/camera.vendor.msm7x27a.so:system/lib/hw/camera.vendor.msm7x27a.so \
     vendor/lge/p700/proprietary/etc/firmware/wlan/volans/WCN1314_cfg.dat:system/etc/firmware/wlan/volans/WCN1314_cfg.dat \
     vendor/lge/p700/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_wlan_nv.bin:system/etc/firmware/wlan/volans/WCN1314_qcom_wlan_nv.bin \
     vendor/lge/p700/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_fw.bin:system/etc/firmware/wlan/volans/WCN1314_qcom_fw.bin \
