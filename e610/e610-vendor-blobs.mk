@@ -20,7 +20,10 @@
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ######################    DEPENDENCY SECTION  #######################
 PRODUCT_COPY_FILES += \
-    vendor/lge/e610/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so
+    vendor/lge/e610/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
+    vendor/lge/e610/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
+    vendor/lge/e610/proprietary/lib/libimage-jpeg-enc-omx-comp.so:obj/lib/libimage-jpeg-enc-omx-comp.so \
+    vendor/lge/e610/proprietary/lib/libmmstillomx.so:obj/lib/libmmstillomx.so
 
 PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/bin/sensord:system/bin/sensord \
@@ -56,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/e610/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lge/e610/proprietary/lib/libchromatix_hi542_preview.so:system/lib/libchromatix_hi542_preview.so \
-    vendor/lge/e610/proprietary/lib/hw/camera.vendor.msm7x27a.so:system/lib/hw/camera.vendor.msm7x27a.so \
     vendor/lge/e610/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
     vendor/lge/e610/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/lge/e610/proprietary/lib/libwfcu.so:system/lib/libwfcu.so \
@@ -129,7 +131,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/lge/e610/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/lge/e610/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
-    vendor/lge/e610/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/lge/e610/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/lge/e610/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/lge/e610/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
