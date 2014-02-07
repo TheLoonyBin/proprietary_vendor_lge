@@ -53,7 +53,6 @@ PRODUCT_COPY_FILES += \
         vendor/lge/d802/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
         vendor/lge/d802/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
         vendor/lge/d802/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-        vendor/lge/d802/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
         vendor/lge/d802/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
         vendor/lge/d802/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
         vendor/lge/d802/proprietary/lib/libHDR.so:system/lib/libHDR.so \
@@ -83,7 +82,8 @@ PRODUCT_COPY_FILES += \
         vendor/lge/d802/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_I2C_NCD_Signed_ORC.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_I2C_NCD_Signed_ORC.ncd \
         vendor/lge/d802/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_PreI2C_NCD_Signed_ORC.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_PreI2C_NCD_Signed_ORC.ncd \
         vendor/lge/d802/proprietary/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd:system/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd \
-        vendor/lge/d802/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
+        vendor/lge/d802/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
+        vendor/lge/d802/proprietary/vendor/lib/drm/libdrmprplugin.so:system/vendor/lib/drm/libdrmprplugin.so \
         vendor/lge/d802/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
         vendor/lge/d802/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
         vendor/lge/d802/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \

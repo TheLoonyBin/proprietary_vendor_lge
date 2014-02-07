@@ -52,7 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs980/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/vs980/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lge/vs980/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
-    vendor/lge/vs980/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/lge/vs980/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/vs980/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/vs980/proprietary/lib/libril.so:system/lib/libril.so \
@@ -76,6 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs980/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
     vendor/lge/vs980/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lge/vs980/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/lge/vs980/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lge/vs980/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/lge/vs980/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lge/vs980/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -85,7 +85,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs980/proprietary/vendor/lib/egl/libplayback_adreno.so:system/vendor/lib/egl/libplayback_adreno.so \
     vendor/lge/vs980/proprietary/vendor/lib/hw/power.msm8974.so:system/vendor/lib/hw/power.msm8974.so \
     vendor/lge/vs980/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
-    vendor/lge/vs980/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
+    vendor/lge/vs980/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
+    vendor/lge/vs980/proprietary/vendor/lib/drm/libdrmprplugin.so:system/vendor/lib/drm/libdrmprplugin.so \
     vendor/lge/vs980/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/lge/vs980/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/lge/vs980/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
