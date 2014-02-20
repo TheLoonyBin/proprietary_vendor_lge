@@ -20,10 +20,7 @@
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ######################    DEPENDENCY SECTION  #######################
 PRODUCT_COPY_FILES += \
-    vendor/lge/e610/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
-    vendor/lge/e610/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
-    vendor/lge/e610/proprietary/lib/libimage-jpeg-enc-omx-comp.so:obj/lib/libimage-jpeg-enc-omx-comp.so \
-    vendor/lge/e610/proprietary/lib/libmmstillomx.so:obj/lib/libmmstillomx.so
+    vendor/lge/e610/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so
 
 PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/bin/sensord:system/bin/sensord \
