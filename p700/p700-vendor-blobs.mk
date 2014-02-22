@@ -21,8 +21,8 @@
 ######################    DEPENDENCY SECTION  #######################
 PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
-    vendor/lge/p700/proprietary/lib/liboncrpc:obj/lib/liboncrpc \
-    vendor/lge/p700/proprietary/lib/libnv:obj/lib/libnv
+    vendor/lge/p700/proprietary/lib/liboncrpc.so:obj/lib/liboncrpc.so \
+    vendor/lge/p700/proprietary/lib/libnv.so:obj/lib/libnv.so
 
 PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/hw/lights.msm7x27a.so:system/lib/hw/lights.msm7x27a.so \
