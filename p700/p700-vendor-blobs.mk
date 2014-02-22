@@ -122,7 +122,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/lge/p700/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
     vendor/lge/p700/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
-    vendor/lge/p700/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/p700/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/lge/p700/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/lge/p700/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
@@ -134,5 +133,4 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/lge/p700/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/lge/p700/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-    vendor/lge/p700/proprietary/lib/libqmi_client_griffon.so:system/lib/libqmi_client_griffon.so \
     vendor/lge/p700/proprietary/lib/librpc.so:system/lib/librpc.so

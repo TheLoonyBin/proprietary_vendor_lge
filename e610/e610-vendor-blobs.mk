@@ -64,7 +64,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/libwcnftm.so:system/lib/libwcnftm.so \
     vendor/lge/e610/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/lge/e610/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
-    vendor/lge/e610/proprietary/lib/libqmi_client_griffon.so:system/lib/libqmi_client_griffon.so \
     vendor/lge/e610/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/lge/e610/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/lge/e610/proprietary/lib/libqueue.so:system/lib/libqueue.so \
@@ -124,7 +123,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/lge/e610/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
     vendor/lge/e610/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
-    vendor/lge/e610/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/e610/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/lge/e610/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/lge/e610/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
