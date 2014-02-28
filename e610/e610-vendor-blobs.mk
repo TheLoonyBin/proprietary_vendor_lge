@@ -134,4 +134,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/lge/e610/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/lge/e610/proprietary/lib/librpc.so:system/lib/librpc.so \
-    vendor/lge/e610/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
+    vendor/lge/e610/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
+    vendor/lge/e610/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
+    vendor/lge/e610/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
+    vendor/lge/e610/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
+    vendor/lge/e610/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+    vendor/lge/e610/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so
