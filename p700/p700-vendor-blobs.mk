@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/lge/p700/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/lge/p700/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/lge/p700/proprietary/lib/libbtnv.so:system/lib/libbtnv.so \
     vendor/lge/p700/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/p700/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/p700/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
@@ -111,7 +112,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
     vendor/lge/p700/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/lge/p700/proprietary/lib/libOmxAc3HwDec.so:system/lib/libOmxAc3HwDec.so \
-    vendor/lge/p700/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
     vendor/lge/p700/proprietary/lib/libOmxIttiamVenc.so:system/lib/libOmxIttiamVenc.so \
     vendor/lge/p700/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/p700/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
