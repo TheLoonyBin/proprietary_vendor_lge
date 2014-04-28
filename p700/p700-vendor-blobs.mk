@@ -20,10 +20,7 @@
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ######################    DEPENDENCY SECTION  #######################
 PRODUCT_COPY_FILES += \
-    vendor/lge/p700/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
-    vendor/lge/p700/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
-    vendor/lge/p700/proprietary/lib/libimage-jpeg-enc-omx-comp.so:obj/lib/libimage-jpeg-enc-omx-comp.so \
-    vendor/lge/p700/proprietary/lib/libmmstillomx.so:obj/lib/libmmstillomx.so
+    vendor/lge/p700/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so
 
 PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/hw/lights.msm7x27a.so:system/lib/hw/lights.msm7x27a.so \
