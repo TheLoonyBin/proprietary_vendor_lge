@@ -20,7 +20,9 @@
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ######################    DEPENDENCY SECTION  #######################
 PRODUCT_COPY_FILES += \
-    vendor/lge/e610/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so
+    vendor/lge/e610/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
+    vendor/lge/e610/proprietary/lib/liboncrpc:obj/lib/liboncrpc \
+    vendor/lge/e610/proprietary/lib/libnv:obj/lib/libnv
 
 PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/bin/sensord:system/bin/sensord \
