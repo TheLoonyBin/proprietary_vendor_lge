@@ -121,6 +121,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/lge/e610/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/lge/e610/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
+    vendor/lge/e610/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
+    vendor/lge/e610/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
+    vendor/lge/e610/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/lge/e610/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
     vendor/lge/e610/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/lge/e610/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/lge/e610/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \

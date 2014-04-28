@@ -122,6 +122,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libchromatix_hi542_default_video.so:system/lib/libchromatix_hi542_default_video.so \
     vendor/lge/p700/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/lge/p700/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+    vendor/lge/p700/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
+    vendor/lge/p700/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
+    vendor/lge/p700/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/lge/p700/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
     vendor/lge/p700/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/lge/p700/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/lge/p700/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
