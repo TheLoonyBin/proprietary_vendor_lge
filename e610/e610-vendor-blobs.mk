@@ -56,7 +56,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/e610/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lge/e610/proprietary/lib/libchromatix_hi542_preview.so:system/lib/libchromatix_hi542_preview.so \
-    vendor/lge/e610/proprietary/lib/hw/vendor-camera.msm7x27a.so:system/lib/hw/vendor-camera.msm7x27a.so \
+    vendor/lge/e610/proprietary/lib/hw/camera.vendor.msm7x27a.so:system/lib/hw/camera.vendor.msm7x27a.so \
     vendor/lge/e610/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
     vendor/lge/e610/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/lge/e610/proprietary/lib/libwfcu.so:system/lib/libwfcu.so \
