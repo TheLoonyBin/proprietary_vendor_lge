@@ -24,9 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d802/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/lge/d802/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/lge/d802/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/lge/d802/proprietary/bin/thermald:system/bin/thermald \
     vendor/lge/d802/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/lge/d802/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/d802/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/d802/proprietary/bin/nl_listener:system/bin/nl_listener \
     vendor/lge/d802/proprietary/bin/port-bridge:system/bin/port-bridge \
@@ -37,7 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d802/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/d802/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/d802/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
-    vendor/lge/d802/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/lge/d802/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/d802/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/lge/d802/proprietary/bin/usbhub_init:system/bin/usbhub_init \
@@ -231,7 +228,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d802/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/lge/d802/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
     vendor/lge/d802/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
-    vendor/lge/d802/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/lge/d802/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/lge/d802/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/lge/d802/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
