@@ -263,4 +263,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls980/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/lge/ls980/proprietary/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd:system/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd \
     vendor/lge/ls980/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
-    vendor/lge/ls980/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw
+    vendor/lge/ls980/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
+    vendor/lge/ls980/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/lge/ls980/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
+    vendor/lge/ls980/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/lge/ls980/proprietary/lib/hw/gps.msm8974.so:system/lib/hw/gps.msm8974.so
