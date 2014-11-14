@@ -21,7 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/lge/hammerhead/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lge/hammerhead/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/lge/hammerhead/proprietary/bin/mpdecision:system/bin/mpdecision \
+    vendor/lge/hammerhead/proprietary/bin/mpdecision_disabled:system/bin/mpdecision_disabled \
     vendor/lge/hammerhead/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/hammerhead/proprietary/bin/nl_listener:system/bin/nl_listener \
     vendor/lge/hammerhead/proprietary/bin/port-bridge:system/bin/port-bridge \
@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/hammerhead/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/hammerhead/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
-    vendor/lge/hammerhead/proprietary/bin/thermal-engine-hh:system/bin/thermal-engine-hh \
+    vendor/lge/hammerhead/proprietary/bin/thermal-engine-hh_disabled:system/bin/thermal-engine-hh_disabled \
     vendor/lge/hammerhead/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/hammerhead/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/lge/hammerhead/proprietary/bin/usbhub_init:system/bin/usbhub_init \
