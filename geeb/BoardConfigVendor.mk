@@ -14,6 +14,5 @@
 
 LOCAL_STEM := geeb/BoardConfigPartial.mk
 
--include vendor/broadcom/$(LOCAL_STEM)
 -include vendor/lge/$(LOCAL_STEM)
 -include vendor/qcom/$(LOCAL_STEM)
