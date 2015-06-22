@@ -22,10 +22,4 @@ PRODUCT_COPY_FILES := \
     vendor/lge/geeb/proprietary/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01:lge \
     vendor/lge/geeb/proprietary/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02:lge \
     vendor/lge/geeb/proprietary/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03:lge \
-    vendor/lge/geeb/proprietary/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt:lge \
-    vendor/lge/geeb/proprietary/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
-    vendor/lge/geeb/proprietary/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/lge/geeb/proprietary/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/lge/geeb/proprietary/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/lge/geeb/proprietary/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/lge/geeb/proprietary/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+    vendor/lge/geeb/proprietary/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt:lge 
