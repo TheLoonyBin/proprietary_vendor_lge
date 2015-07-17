@@ -54,4 +54,11 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/vendor/firmware/discretix/dxhdcp2.b03:system/vendor/firmware/discretix/dxhdcp2.b03 \
     vendor/lge/hammerhead/proprietary/vendor/firmware/discretix/dxhdcp2.mdt:system/vendor/firmware/discretix/dxhdcp2.mdt \
     vendor/lge/hammerhead/proprietary/vendor/lib/libvdmengine.so:system/vendor/lib/libvdmengine.so \
-    vendor/lge/hammerhead/proprietary/vendor/lib/libvdmfumo.so:system/vendor/lib/libvdmfumo.so
+    vendor/lge/hammerhead/proprietary/vendor/lib/libvdmfumo.so:system/vendor/lib/libvdmfumo.so \
+    vendor/lge/hammerhead/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
+    vendor/lge/hammerhead/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
+    vendor/lge/hammerhead/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
+    vendor/lge/hammerhead/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/lge/hammerhead/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+    vendor/lge/hammerhead/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/lge/hammerhead/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
