@@ -13,9 +13,7 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-    qcrilmsgtunnel \
-    TimeService \
-    shutdownlistener
+    qcrilmsgtunnel
 
 LOCAL_STEM := hammerhead/device-partial.mk
 
