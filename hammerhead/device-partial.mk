@@ -43,4 +43,24 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/libvss_nv_core.so:system/vendor/lib/libvss_nv_core.so:lge \
     vendor/lge/hammerhead/proprietary/libvss_nv_idl.so:system/vendor/lib/libvss_nv_idl.so:lge \
     vendor/lge/hammerhead/proprietary/libvss_nv_iface.so:system/vendor/lib/libvss_nv_iface.so:lge \
+    vendor/lge/hammerhead/proprietary/libfrsdk.so:system/vendor/lib/libfrsdk.so:lge \
+    vendor/lge/hammerhead/proprietary/liblbs_core.so:system/vendor/lib/liblbs_core.so:lge \
+    vendor/lge/hammerhead/proprietary/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so:lge \
+    vendor/lge/hammerhead/proprietary/libwvm.so:system/vendor/lib/libwvm.so:lge \
+    vendor/lge/hammerhead/proprietary/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so:lge \
+    vendor/lge/hammerhead/proprietary/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so:lge \
+    vendor/lge/hammerhead/proprietary/DxHDCP.cfg:system/etc/DxHDCP.cfg:lge \
+    vendor/lge/hammerhead/proprietary/libDxHdcp.so:system/vendor/lib/libDxHdcp.so:lge \
+    vendor/lge/hammerhead/proprietary/dxhdcp2.b00:system/vendor/firmware/discretix/dxhdcp2.b00:lge \
+    vendor/lge/hammerhead/proprietary/dxhdcp2.b01:system/vendor/firmware/discretix/dxhdcp2.b01:lge \
+    vendor/lge/hammerhead/proprietary/dxhdcp2.b02:system/vendor/firmware/discretix/dxhdcp2.b02:lge \
+    vendor/lge/hammerhead/proprietary/dxhdcp2.b03:system/vendor/firmware/discretix/dxhdcp2.b03:lge \
+    vendor/lge/hammerhead/proprietary/dxhdcp2.mdt:system/vendor/firmware/discretix/dxhdcp2.mdt:lge \
+    vendor/lge/hammerhead/proprietary/libvdmengine.so:system/vendor/lib/libvdmengine.so:lge \
+    vendor/lge/hammerhead/proprietary/libvdmfumo.so:system/vendor/lib/libvdmfumo.so:lge \
+    vendor/lge/hammerhead/proprietary/widevine.b00:system/vendor/firmware/widevine.b00:lge \
+    vendor/lge/hammerhead/proprietary/widevine.b01:system/vendor/firmware/widevine.b01:lge \
+    vendor/lge/hammerhead/proprietary/widevine.b02:system/vendor/firmware/widevine.b02:lge \
+    vendor/lge/hammerhead/proprietary/widevine.b03:system/vendor/firmware/widevine.b03:lge \
+    vendor/lge/hammerhead/proprietary/widevine.mdt:system/vendor/firmware/widevine.mdt:lge \
 
