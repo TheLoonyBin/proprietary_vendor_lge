@@ -15,7 +15,8 @@
 PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     TimeService \
-    shutdownlistener
+    shutdownlistener \
+    UpdateSetting
 
 LOCAL_STEM := hammerhead/device-partial.mk
 
