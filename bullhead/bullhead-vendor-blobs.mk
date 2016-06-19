@@ -94,4 +94,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lge/bullhead/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/lge/bullhead/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/lge/bullhead/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so
+    vendor/lge/bullhead/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
+    vendor/lge/bullhead/proprietary/lib/hw/nfc_nci.bullhead.so:system/lib/hw/nfc_nci.bullhead.so \
+    vendor/lge/bullhead/proprietary/lib64/hw/nfc_nci.bullhead.so:system/lib64/hw/nfc_nci.bullhead.so \
+    vendor/lge/bullhead/proprietary/lib64/libnfc-nci.so:system/lib64/libnfc-nci.so \
+    vendor/lge/bullhead/proprietary/lib64/libnfc_nci_jni.so:system/lib64/libnfc_nci_jni.so
