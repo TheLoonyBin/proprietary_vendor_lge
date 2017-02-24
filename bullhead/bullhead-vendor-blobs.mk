@@ -94,5 +94,5 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/lib/hw/nfc_nci.bullhead.so:system/lib/hw/nfc_nci.bullhead.so \
     vendor/lge/bullhead/proprietary/lib64/hw/nfc_nci.bullhead.so:system/lib64/hw/nfc_nci.bullhead.so \
     vendor/lge/bullhead/proprietary/lib64/libnfc-nci.so:system/lib64/libnfc-nci.so \
-    vendor/lge/bullhead/proprietary/lib64/libnfc_nci_jni.so:system/lib64/libnfc_nci_jni.so
+    vendor/lge/bullhead/proprietary/lib64/libnfc_nci_jni.so:system/lib64/libnfc_nci_jni.so \
     vendor/lge/bullhead/proprietary/lib64/libprotobuf-cpp-full.so:system/lib64/libprotobuf-cpp-full.so
