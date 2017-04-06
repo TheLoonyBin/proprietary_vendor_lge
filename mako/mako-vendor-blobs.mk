@@ -166,6 +166,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/vendor/firmware/q6.b05:system/vendor/firmware/q6.b05 \
     vendor/lge/mako/proprietary/vendor/firmware/q6.b06:system/vendor/firmware/q6.b06 \
     vendor/lge/mako/proprietary/vendor/firmware/q6.mdt:system/vendor/firmware/q6.mdt \
+    vendor/lge/mako/proprietary/etc/firmware/tzapps.b00:system/vendor/firmware/tzapps.b00 \
+    vendor/lge/mako/proprietary/etc/firmware/tzapps.b01:system/vendor/firmware/tzapps.b01 \
+    vendor/lge/mako/proprietary/etc/firmware/tzapps.b02:system/vendor/firmware/tzapps.b02 \
+    vendor/lge/mako/proprietary/etc/firmware/tzapps.b03:system/vendor/firmware/tzapps.b03 \
+    vendor/lge/mako/proprietary/etc/firmware/tzapps.mdt:system/vendor/firmware/tzapps.mdt \
     vendor/lge/mako/proprietary/vendor/firmware/wcnss.b00:system/vendor/firmware/wcnss.b00 \
     vendor/lge/mako/proprietary/vendor/firmware/wcnss.b01:system/vendor/firmware/wcnss.b01 \
     vendor/lge/mako/proprietary/vendor/firmware/wcnss.b02:system/vendor/firmware/wcnss.b02 \
