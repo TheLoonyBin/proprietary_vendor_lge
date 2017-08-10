@@ -1,4 +1,4 @@
-# Copyright (C) 2016 The Pure Nexus Project
+# Copyright (C) 2015-2017 The Pure Nexus Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,13 +16,16 @@ $(call inherit-product, vendor/lge/bullhead/bullhead-vendor-blobs.mk)
 
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
+    atfwd \
     datastatusnotification \
     HiddenMenu \
     ims \
+    qcrilmsgtunnel \
     RCSBootstraputil \
     RcsImsBootstraputil \
+    SetupSmartDeviceOverlay \
     TimeService \
-    Tycho 
+    Tycho
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
@@ -33,9 +36,6 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
-    atfwd \
-    CarrierEntitlement \
-    CarrierServices \
     CNEService \
     ConnMO \
     DCMO \
@@ -45,7 +45,6 @@ PRODUCT_PACKAGES += \
     GCS \
     HotwordEnrollment \
     LifeTimerService \
-    qcrilmsgtunnel \
     SprintDM
 
 # Symlinks

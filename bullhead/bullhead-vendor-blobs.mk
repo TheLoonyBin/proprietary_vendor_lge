@@ -1,4 +1,4 @@
-# Copyright (C) 2016 The Pure Nexus Project
+# Copyright (C) 2015-2017 The Pure Nexus Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,6 +19,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/lge/bullhead/proprietary/bin/diag_klog:system/bin/diag_klog \
     vendor/lge/bullhead/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
+    vendor/lge/bullhead/proprietary/bin/fingerprintd:system/bin/fingerprintd \
+    vendor/lge/bullhead/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/lge/bullhead/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/lge/bullhead/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/lge/bullhead/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
@@ -26,7 +28,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/lge/bullhead/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/lge/bullhead/proprietary/bin/lowi-server:system/bin/lowi-server \
+    vendor/lge/bullhead/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/lge/bullhead/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
+    vendor/lge/bullhead/proprietary/bin/nanoapp_cmd:system/bin/nanoapp_cmd \
     vendor/lge/bullhead/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/bullhead/proprietary/bin/nl_listener:system/bin/nl_listener \
     vendor/lge/bullhead/proprietary/bin/perfd:system/bin/perfd \
@@ -66,14 +70,19 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/etc/qcril.db:system/etc/qcril.db \
     vendor/lge/bullhead/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/lge/bullhead/proprietary/etc/thermal-engine-8992.conf:system/etc/thermal-engine-8992.conf \
+    vendor/lge/bullhead/proprietary/lib/hw/activity_recognition.bullhead.so:system/lib/hw/activity_recognition.bullhead.so \
     vendor/lge/bullhead/proprietary/lib/hw/audio.primary.msm8992.so:system/lib/hw/audio.primary.msm8992.so \
+    vendor/lge/bullhead/proprietary/lib/hw/context_hub.default.so:system/lib/hw/context_hub.default.so \
     vendor/lge/bullhead/proprietary/lib/hw/fingerprint.bullhead.so:system/lib/hw/fingerprint.bullhead.so \
     vendor/lge/bullhead/proprietary/lib/hw/gps.msm8992.so:system/lib/hw/gps.msm8992.so \
+    vendor/lge/bullhead/proprietary/lib/hw/sensors.bullhead.so:system/lib/hw/sensors.bullhead.so \
     vendor/lge/bullhead/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
-    vendor/lge/bullhead/proprietary/lib/libdmengine.so:system/priv-app/DMService/lib/arm/libdmengine.so \
-    vendor/lge/bullhead/proprietary/lib/libdmjavaplugin.so:system/priv-app/DMService/lib/arm/libdmjavaplugin.so \
+    vendor/lge/bullhead/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
+    vendor/lge/bullhead/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
+    vendor/lge/bullhead/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
     vendor/lge/bullhead/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/lge/bullhead/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/lge/bullhead/proprietary/lib/libhubconnection.so:system/lib/libhubconnection.so \
     vendor/lge/bullhead/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/lge/bullhead/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/lge/bullhead/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
@@ -81,18 +90,20 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/lge/bullhead/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lge/bullhead/proprietary/lib64/hw/audio.primary.msm8992.so:system/lib64/hw/audio.primary.msm8992.so \
+    vendor/lge/bullhead/proprietary/lib64/hw/activity_recognition.bullhead.so:system/lib64/hw/activity_recognition.bullhead.so \
+    vendor/lge/bullhead/proprietary/lib64/hw/context_hub.default.so:system/lib64/hw/context_hub.default.so \
     vendor/lge/bullhead/proprietary/lib64/hw/fingerprint.bullhead.so:system/lib64/hw/fingerprint.bullhead.so \
     vendor/lge/bullhead/proprietary/lib64/hw/gps.msm8992.so:system/lib64/hw/gps.msm8992.so \
+    vendor/lge/bullhead/proprietary/lib64/hw/sensors.bullhead.so:system/lib64/hw/sensors.bullhead.so \
+    vendor/lge/bullhead/proprietary/lib64/libfacenet.so:system/lib64/libfacenet.so \
+    vendor/lge/bullhead/proprietary/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
     vendor/lge/bullhead/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/lge/bullhead/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
+    vendor/lge/bullhead/proprietary/lib64/libhubconnection.so:system/lib64/libhubconnection.so \
     vendor/lge/bullhead/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/lge/bullhead/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/lge/bullhead/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lge/bullhead/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/lge/bullhead/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/lge/bullhead/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-    vendor/lge/bullhead/proprietary/lib/hw/nfc_nci.bullhead.so:system/lib/hw/nfc_nci.bullhead.so \
-    vendor/lge/bullhead/proprietary/lib64/hw/nfc_nci.bullhead.so:system/lib64/hw/nfc_nci.bullhead.so \
-    vendor/lge/bullhead/proprietary/lib64/libnfc-nci.so:system/lib64/libnfc-nci.so \
-    vendor/lge/bullhead/proprietary/lib64/libnfc_nci_jni.so:system/lib64/libnfc_nci_jni.so \
     vendor/lge/bullhead/proprietary/lib64/libprotobuf-cpp-full.so:system/lib64/libprotobuf-cpp-full.so

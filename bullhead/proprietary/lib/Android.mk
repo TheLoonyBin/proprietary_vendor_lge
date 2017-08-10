@@ -1,4 +1,4 @@
-# Copyright (C) 2016 The Pure Nexus Project
+# Copyright (C) 2015-2016 The Pure Nexus Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,6 +19,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libdmengine.so
 LOCAL_MODULE_CLASS := FAKE
 LOCAL_MODULE_TAGS := optional
+LOCAL_MULTILIB := both
 include $(BUILD_SYSTEM)/base_rules.mk
 $(LOCAL_BUILT_MODULE): TARGET := /lib/libdmengine.so
 $(LOCAL_BUILT_MODULE): SYMLINK := $(TARGET_OUT)/priv-app/DMService/lib/arm/$(LOCAL_MODULE)
@@ -35,6 +36,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libdmjavaplugin.so
 LOCAL_MODULE_CLASS := FAKE
 LOCAL_MODULE_TAGS := optional
+LOCAL_MULTILIB := both
 include $(BUILD_SYSTEM)/base_rules.mk
 $(LOCAL_BUILT_MODULE): TARGET := /lib/libdmjavaplugin.so
 $(LOCAL_BUILT_MODULE): SYMLINK := $(TARGET_OUT)/priv-app/DMService/lib/arm/$(LOCAL_MODULE)
